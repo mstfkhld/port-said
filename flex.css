@@ -591,14 +591,6 @@ footer {
 }
 
 
-.journey-card .card-body {
-    background-color: transparent !important;
-}
-
-.journey-card .card-title {
-    color: var(--text) !important;
-}
-
 /* ---------- RESPONSIVE DESIGN ---------- */
 @media (max-width: 950px) {
     .skills-grid {
@@ -659,42 +651,4 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-}
-
-
-/* ---------- BOOTSTRAP COLOR OVERRIDES ---------- */
-body {
-    background-color: var(--bg) !important;
-    color: var(--text) !important;
-}
-
-.site-header {
-    background-color: rgba(8, 11, 20, 0.88) !important;
-    border-bottom-color: var(--border) !important;
-}
-
-.navigation .nav-link {
-    color: var(--muted) !important;
-}
-
-.navigation .nav-link:hover,
-.navigation .nav-link:focus {
-    color: var(--text) !important;
-}
-
-.project-image .img-thumbnail {
-    background-color: #05070c !important;
-    border-color: rgba(255, 255, 255, 0.10) !important;
-}
-
-.button-primary {
-    color: #ffffff !important;
-}
-
-.button-outline {
-    color: var(--text) !important;
-}
-
-.footer-links a:hover {
-    color: #ffffff !important;
 }
